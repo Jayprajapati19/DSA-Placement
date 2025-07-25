@@ -62,3 +62,57 @@
 
 // [a, b] = [b, a];
 // console.log(a, b); // 20 10
+
+// ++++++++++++++++++++++++++++++++++++
+// let a = 4563;
+// console.log(1 % 10);// for last digit (get) malse..
+// console.log(Math.floor(a / 1000));
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
+// && -> left and right both should be true
+// || -> left or right should be true , one side true is enough
+// ! -> negation (opposite)
+
+// ++++++++++++++++++++++++++++++++++++++++++
+// unary operators, ++, --
+
+// let a = 11,
+//   b = 22;
+// let c = a + b + a++ + b++ + ++a + ++b;
+
+// console.log("a=" + a); // 13
+// console.log("b=" + b); // 24
+// console.log("c=" + c); // 103
+
+// +++++++++++++++++++++++++++++++++++
+// let a = true;
+// a++;
+// console.log(a);//2
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+// let a = 11++;
+// console.log(a);
+
+// Uncaught SyntaxError: Invalid left-hand side expression in postfix operation
+// variable pe laga shakte haii....
+
+// ++++++++++++++++++++++
+
+// let a = 10;
+// let b = ++(a++)
+// console.log(b);
+
+// ++++++++++++++++++++++Math functions++++++++++++
+
+console.log(Math.round(10.3)); //10
+console.log(Math.ceil(10.1)); //11
+console.log(Math.floor(10.6)); //10
+console.log(Math.trunc(18.98)); //18
+console.log(Math.pow(2, 5)); //2^5 = 32
+console.log(Math.sqrt(16)); //4 square root
+console.log(Math.cbrt(27)); //3 cube root
+console.log(Math.abs(-10)); //10 absolute value
+console.log(Math.max(10, 20, 30)); //30 maximum value
+console.log(Math.min(10, 20, 30)); //10 minimum value
+console.log(Math.random()); // random number between 0 and 1
+console.log(Math.floor(Math.random() * 100)); // random number between 0 and 99
