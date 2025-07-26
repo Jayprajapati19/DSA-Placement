@@ -104,15 +104,38 @@
 
 // ++++++++++++++++++++++Math functions++++++++++++
 
-console.log(Math.round(10.3)); //10
-console.log(Math.ceil(10.1)); //11
-console.log(Math.floor(10.6)); //10
-console.log(Math.trunc(18.98)); //18
-console.log(Math.pow(2, 5)); //2^5 = 32
-console.log(Math.sqrt(16)); //4 square root
-console.log(Math.cbrt(27)); //3 cube root
-console.log(Math.abs(-10)); //10 absolute value
-console.log(Math.max(10, 20, 30)); //30 maximum value
-console.log(Math.min(10, 20, 30)); //10 minimum value
-console.log(Math.random()); // random number between 0 and 1
-console.log(Math.floor(Math.random() * 100)); // random number between 0 and 99
+// console.log(Math.round(10.3)); //10
+// console.log(Math.ceil(10.1)); //11
+// console.log(Math.floor(10.6)); //10
+// console.log(Math.trunc(18.98)); //18
+// console.log(Math.pow(2, 5)); //2^5 = 32
+// console.log(Math.sqrt(16)); //4 square root
+// console.log(Math.cbrt(27)); //3 cube root
+// console.log(Math.abs(-10)); //10 absolute value, negative ko positive me convert
+// console.log(Math.max(10, 20, 30)); //30 maximum value
+// console.log(Math.min(10, 20, 30)); //10 minimum value
+// console.log(Math.random()); // random number between 0 and 1
+// console.log(Math.floor(Math.random() * 100)); // random number between 0 and 99
+
+// let a = 89.0590595;
+// console.log(a.toFixed(2)); // string
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// let a = 5;
+// let b = 7;
+
+// console.log(a * b);
+// console.log(2 * (a + b));
+
+// +++++++++++++++++++++++++++++++++++++++
+
+// let a = 5;
+// let b = 4s;
+// let c = 3;
+
+// let s = (a + b + c) / 2; // semi-perimeter
+
+// let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+// console.log(area);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
