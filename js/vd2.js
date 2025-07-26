@@ -100,3 +100,45 @@
 // }
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++
+// ternary operator ->  ? :
+// nested ternary operator -> ? : ? :
+
+// let num = 10;
+// console.log(num > 0 ? "Positive" : num < 0 ? "Negative" : "Zero");
+
+// ++++++++++++++++++++++switch case++++++++++++++++++++++++++
+// fall through condition // without break statement
+
+// let day = 2;
+
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+
+//   default:
+//     console.log("Invalid day");
+//     break;
+// }
+
+// +++++++++++++++++++++++++++'
+// .toFixed(1) → string mein convert karta hai "0.3"
+
+// +() → use dobara number banata hai 0.3
+
+let num = 0.1 + 0.2; // 0.30000000000000004
+switch (num) {
+  case 0.3:
+    console.log("hello");
+    break;
+  case 0.5:
+    console.log("heyyy");
+    break;
+  default:
+    console.log("namsteee");
+    break;
+}
