@@ -53,6 +53,8 @@
 //   arr[arr.length - 1] = copy;
 // }
 
+
+
 // console.log(arr);
 // console.log(`Array rotated ${count} times to the left by ${k} elements.`);
 
@@ -60,7 +62,9 @@
 let arr = [1, 2, 3, 4, 5];
 let temp = new Array(arr.length);
 
-let k = Number(prompt("Enter k value: "));
+// enter the value of k
+
+let k = Number(prompt("Enter k value : "));
 k = k % arr.length; // to handle cases where k is greater than array length
 
 for (let i = 0; i < arr.length; i++) {
