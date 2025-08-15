@@ -11,11 +11,12 @@
 
 // op->[ 2, 3, 4, 5, 1 ]
 
-// this is all about DSA in js
 
-// +++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++++++++
 // Right rotation by 1
 // let arr = [1, 2, 3, 4, 5];
+
+
 
 // let copy = arr[arr.length - 1];
 
