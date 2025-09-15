@@ -14,14 +14,12 @@
 
 // +++++++++++++++++++++++++++++++++++++
 // Right rotation by 1
+
 // let arr = [1, 2, 3, 4, 5];
-
-
 
 // let copy = arr[arr.length - 1];
 
 // // store last element
-
 // for (let i = arr.length - 1; i > 0; i--) {
 //   arr[i] = arr[i - 1];
 //   // shift elements to the right
@@ -39,13 +37,13 @@
 // let k = Number(prompt("Enter k value: "));
 
 // k = k % arr.length; // to handle cases where k is greater than array length
-// // e.g., if k = 7 and arr.length = 5, we only need to rotate 2 times
+// e.g., if k = 7 and arr.length = 5, we only need to rotate 2 times
 
-// // let count = 0;
+// let count = 0;
 
 // for (let j = 0; j < k; j++) {
 //   let copy = arr[0];
-//   //   count++;
+//     count++;
 //   for (let i = 0; i < arr.length - 1; i++) {
 //     arr[i] = arr[i + 1];
 //   }
@@ -53,42 +51,39 @@
 //   arr[arr.length - 1] = copy;
 // }
 
-
-
 // console.log(arr);
 // console.log(`Array rotated ${count} times to the left by ${k} elements.`);
 
 // optimised approach
-let arr = [1, 2, 3, 4, 5];
-let temp = new Array(arr.length);
+// let arr = [1, 2, 3, 4, 5];
+// let temp = new Array(arr.length);
 
-// enter the value of k
+// // // enter the value of k
+// let k = Number(prompt("Enter k value : "));
+// k = k % arr.length; // to handle cases where k is greater than array length
 
-let k = Number(prompt("Enter k value : "));
-k = k % arr.length; // to handle cases where k is greater than array length
+// for (let i = 0; i < arr.length; i++) {
+//   temp[i] = arr[(i + k) % arr.length];
+// }
 
-for (let i = 0; i < arr.length; i++) {
-  temp[i] = arr[(i + k) % arr.length];
-}
-
-console.log(temp);
+// console.log(temp);
 
 // ++++++++++++++++++++++
 // right rotation by k element
 // let arr = [1, 2, 3, 4, 5];
-// let k = 2; // Number of right rotations
+// let temp = new Array(arr.length);
 
-// for (let i = 0; i < k; i++) {
-//   // Store the last element
-//   let temp = arr[arr.length - 1];
+// let k = Number(prompt("Enter k value : "));
+// k = k % arr.length;
 
-//   // Shift all elements one position to the right
-//   for (let j = arr.length - 1; j > 0; j--) {
-//     arr[j] = arr[j - 1];
-//   }
-
-//   // Place the last element at the start
-//   arr[0] = temp;
+// for (let i = 0; i < arr.length; i++) {
+//   temp[(i + k) % arr.length] = arr[i];
 // }
 
-// console.log(arr);
+// console.log(temp);
+
+
+// +++++++++++++++++++++++++
+
+
+    

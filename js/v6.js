@@ -1,9 +1,9 @@
-// let arr = [10, 20, 30, 40, 50];
-// let sum = 0;
-// for (let i = 0; i < arr.length; i++) {
-//   sum = sum + arr[i];
-// }
-// console.log("Sum:", sum);
+let arr = [10, 20, 30, 40, 50];
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+  sum = sum + arr[i];
+}
+console.log("Sum:", sum);
 
 // +++++++++++++++++++++++++++++++++++++++++
 
@@ -123,26 +123,26 @@
 
 // all negative numbers to the left and all positive numbers to the right
 
-let arr = [-10, 20, -30, 40, -50, 60, -70];
+// let arr = [-10, 20, -30, 40, -50, 60, -70];
 
-let left = 0;
-let right = arr.length - 1;
+// let left = 0;
+// let right = arr.length - 1;
 
-while (left < right) {
-  // Agar left negative hai toh theek hai, left++ karo
-  if (arr[left] < 0) {
-    left++;
-  }
-  // Agar right positive hai toh theek hai, right-- karo
-  else if (arr[right] > 0) {
-    right--;
-  }
-  // Agar left positive hai aur right negative hai, swap kar do
-  else {
-    [arr[left], arr[right]] = [arr[right], arr[left]];
-    left++;
-    right--;
-  }
-}
+// while (left < right) {
+//   // Agar left negative hai toh theek hai, left++ karo
+//   if (arr[left] < 0) {
+//     left++;
+//   }
+//   // Agar right positive hai toh theek hai, right-- karo
+//   else if (arr[right] > 0) {
+//     right--;
+//   }
+//   // Agar left positive hai aur right negative hai, swap kar do
+//   else {
+//     [arr[left], arr[right]] = [arr[right], arr[left]];
+//     left++;
+//     right--;
+//   }
+// }
 
-console.log("Rearranged Array:", arr);
+// console.log("Rearranged Array:", arr);
